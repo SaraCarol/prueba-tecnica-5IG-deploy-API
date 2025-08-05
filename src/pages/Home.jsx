@@ -25,7 +25,7 @@ const Home = () => {
         <Container className={styles.container}>
 
         <Box className={styles.filtersBox}>
-            <Typography variant="h4" >Our Products</Typography>
+            <Typography variant="h4" >SHOP</Typography>
             <FilterProducts/>
         </Box>
 
