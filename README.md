@@ -29,10 +29,10 @@ https://saracarol.github.io/prueba-tecnica-5IG-deploy-API/
 
 ---
 
-Este repo está enfocado únicamente al **hosting** de la aplicación.  
+Este repo está enfocado únicamente al **hosting** de la aplicación.
+El despliegue automático mediante GitHub Actions fue implementado como parte de la **Task 4**
 Para ver el código fuente completo, visita el repo original:
 
 🔗 [Repositorio principal (con código fuente)](https://github.com/SaraCarol/prueba-tecnica-5IG)
 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
