@@ -1,0 +1,87 @@
+.boxFilter{
+    width: 300px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: #1e1e1e;
+    height: 100%;
+    color: white;
+}
+
+.filterButton{
+    color: white !important;
+    background-color: transparent !important;
+    border: 1px solid white !important;
+    font-weight: 600 !important;
+    padding: 8px 16px !important;
+    margin-bottom: 16px !important;
+}
+
+.filterButton:hover {
+    background-color: white !important;
+    color: #121212 !important; 
+    border-color: white !important;
+}
+
+.title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.label {
+    color: #cccccc !important;
+    font-weight: bold !important;
+    margin-bottom: 8px !important;
+}
+
+.select {
+    background-color: #2a2a2a !important;
+    color: white !important;
+    border-radius: 4px !important;
+}
+
+.select .MuiOutlinedInput-notchedOutline {
+    border-color: #444 !important;
+}
+
+.select:hover .MuiOutlinedInput-notchedOutline {
+    border-color: #888 !important;
+}
+
+.menuItem {
+    background-color: #1e1e1e !important;
+    color: white !important;
+}
+
+.menuItem:hover {
+    background-color: #333 !important;
+}
+
+.applyButton {
+    margin-top: auto !important;
+    font-weight: bold !important;
+    background-color: #7c137b !important ;
+    color: white !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) !important;
+}
+
+.applyButton:hover {
+    background-color: #dbaddb !important;
+}
+
+.clearButton {
+    margin-top: 12px !important;
+    font-weight: bold !important;
+    border: 1px solid #ff5252 !important;
+    color: #ff5252 !important;
+    background-color: transparent !important;
+}
+
+.clearButton:hover {
+    background-color: #ff525230 !important; 
+    border-color: #ff1744 !important;
+    color: #ff1744 !important;
+}

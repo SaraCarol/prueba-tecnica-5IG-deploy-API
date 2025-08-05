@@ -1,0 +1,75 @@
+.card {
+    border-radius: 6px !important;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3) !important;
+    transition: transform 0.2s ease-in-out !important;
+    background-color: #f5f0ff !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 450px;
+    margin: 0 auto;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardCategory{
+    width: 180px;
+    min-width: 180px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f5f0ff;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 0 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.img{
+    object-fit: cover !important;
+    height: 200px !important;
+    width: 100% !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.title {
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+    margin: 0.5rem 0 !important;
+}
+
+.description{
+    margin-top: 0.5rem !important;
+    font-size: 0.9rem !important;
+    color: #444;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+}
+
+.price{
+    margin-top: auto !important;
+    font-weight: bold !important;
+    color: #333;
+}
+
+.buttonVerMas{
+    cursor: pointer !important;
+    color: #7c137b !important;
+}
+
+.buttonVerMas:hover{
+    background-color: #dbaddb;
+    color: black !important;
+}
