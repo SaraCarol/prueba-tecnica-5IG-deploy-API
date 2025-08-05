@@ -8,7 +8,7 @@ function App() {
   
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/prueba-tecnica-5IG-deploy-API/">
       <Routes>
         <Route path='/' element={<Home/>} />
       
